@@ -5,7 +5,15 @@
     "sort-packages": true,
     "optimize-autoloader": true
     
- 	 		}		
+        },
+        "require-dev": {
+          "phpunit/phpunit": "^7"
+          },
+          "autoload": {
+          "psr-0": {
+          "UnitTestFiles": "/tests/EmailTest.php"
+          }
+          }		
   
   
 }
