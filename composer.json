@@ -11,10 +11,12 @@
           },
           "autoload": {
           "psr-0": {
-          "UnitTestFiles": "/tests/EmailTest.php"
+          "UnitTestFiles": "/Users/kulwindersingh/Documents/simple-php-website-master/tests/EmailTest.php"
           }
           }		
   
   
 }
   
+
+
