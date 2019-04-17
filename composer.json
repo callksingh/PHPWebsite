@@ -4,9 +4,7 @@
   "config": {
     "sort-packages": true,
     "optimize-autoloader": true,
-    "platform": {
-      "php": "7.2"
-    }
+    
  	 		}		
   
   
