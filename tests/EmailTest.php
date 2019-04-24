@@ -7,6 +7,8 @@ declare(strict_types=1);
 
 use Emailnamespace;
 
+include('Email.php');
+
 final class EmailTest extends Emailnamespace\Email
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
