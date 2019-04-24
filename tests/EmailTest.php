@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 //use PHPUnit\Framework\TestCase;
 
-use buddy\phpwebsite\src;
+//use buddy\phpwebsite\src;
 
-final class EmailTest extends src
+final class EmailTest extends Email
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
