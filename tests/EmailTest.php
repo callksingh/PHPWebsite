@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 
 
-final class EmailTest extends Email
+final class EmailTest extends PHPUnit_Framework_TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
