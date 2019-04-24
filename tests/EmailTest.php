@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-use App\Email;
+//use (/../../Email);
 use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
@@ -10,7 +10,7 @@ use PHPUnit\Framwork\TestCase;
 
 
 
-final class EmailTest extends \PHPUnit\Framework\TestCase
+class EmailTest extends \PHPUnit\Framework\TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
