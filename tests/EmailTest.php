@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 
 //use (/../../Email);
+include ("Email.php");
 use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
@@ -15,8 +16,9 @@ class EmailTest extends \PHPUnit\Framework\TestCase
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
         $this->assertInstanceOf(
-            Email::class,
-            Email::fromString('user@example.com')
+            $email = new Email();
+           //  Email::class,
+            $email::fromString('user@example.com')
         );
     }
 
@@ -35,3 +37,4 @@ class EmailTest extends \PHPUnit\Framework\TestCase
         );
     }
 }
+
