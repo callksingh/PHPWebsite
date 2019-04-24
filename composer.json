@@ -14,11 +14,11 @@
             
               "classmap":[
                 "/Users/kulwindersingh/simple-php-website-master/src/Email.php"
-              ],
+              ]//,
       
-          "psr-0": {
-          "UnitTestFiles": "/Users/kulwindersingh/Documents/simple-php-website-master/tests/EmailTest.php"
-          }
+          //"psr-0": {
+          //"UnitTestFiles": "/Users/kulwindersingh/Documents/simple-php-website-master/tests/EmailTest.php"
+          //}
           }		
   
   
