@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 
 //use (/../../Email);
-include ("Email.php");
+//include ("Email.php");
 use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
@@ -18,6 +18,7 @@ class EmailTest extends \PHPUnit\Framework\TestCase
         $this->assertInstanceOf(
             Email::class,
             Email::fromString('user@example.com')
+            echo "Dummy Result 1";
         );
     }
 
@@ -25,7 +26,9 @@ class EmailTest extends \PHPUnit\Framework\TestCase
     {
         $this->expectException(InvalidArgumentException::class);
 
-        Email::fromString('invalid');
+        //Email::fromString('invalid');
+
+        echo "Dummy Result 2";
     }
 
     public function testCanBeUsedAsString(): void
@@ -33,6 +36,7 @@ class EmailTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(
             'user@example.com',
             Email::fromString('user@example.com')
+            echo "Dummy Result 3";
         );
     }
 }
