@@ -1,14 +1,16 @@
 <?php
 declare(strict_types=1);
 
-use src;
+
+use Email;
+use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
 //include ("../../simple-php-website-master/src/Email.php");
 
 
 
-final class EmailTest extends src
+final class EmailTest extends TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {

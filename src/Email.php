@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-//namespace Emailnamespace;
+namespace Users\kulwindersingh\Documents\simple_php_website_master\src;
 
 class Email
 {
