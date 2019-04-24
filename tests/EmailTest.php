@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-//use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 //use buddy\phpwebsite\src;
 include("../../simple-php-website-master/src/Email.php");
