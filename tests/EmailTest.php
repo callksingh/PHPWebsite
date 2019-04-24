@@ -4,12 +4,9 @@ declare(strict_types=1);
 //use PHPUnit\Framework\TestCase;
 
 //use buddy\phpwebsite\src;
+include("Email.php");
 
-use Emailnamespace;
-
-include('Email.php');
-
-final class EmailTest extends Emailnamespace\Email
+final class EmailTest extends Email
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
