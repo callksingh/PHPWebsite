@@ -12,8 +12,9 @@
           },
           "autoload": {
             "psr-4": {
-              "Monolog\\": "src/",
-              "Vendor\\Namespace\\": ""
+              "classmap":[
+                "src/"
+              ]
           },
           "psr-0": {
           "UnitTestFiles": "/Users/kulwindersingh/Documents/simple-php-website-master/tests/EmailTest.php"
