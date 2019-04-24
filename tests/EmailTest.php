@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-use Email;
+use Users\kulwindersingh\Documents\simple_php_website_master\src\Email;
 use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
@@ -10,7 +10,7 @@ use PHPUnit\Framwork\TestCase;
 
 
 
-final class EmailTest extends TestCase
+final class EmailTest extends Email
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
