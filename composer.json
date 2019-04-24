@@ -7,8 +7,8 @@
     
         },
         "require-dev": {
-          "phpunit/phpunit": "7.0.*",
-           "classmap": "/Users/kulwindersingh/Documents/simple-php-website-master/src/Email.php"
+          "phpunit/phpunit": "^7",
+           "classmap": "./Email.php"
           },
           "autoload": {
           "psr-0": {
