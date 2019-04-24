@@ -16,9 +16,8 @@ class EmailTest extends \PHPUnit\Framework\TestCase
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
         $this->assertInstanceOf(
-            $email = new Email();
-           //  Email::class,
-            $email::fromString('user@example.com')
+            Email::class,
+            Email::fromString('user@example.com')
         );
     }
 
