@@ -5,7 +5,9 @@ declare(strict_types=1);
 
 //use buddy\phpwebsite\src;
 
-final class EmailTest extends Email
+namespace EmailTest;
+
+final class EmailTest extends Emailnamespace\Email
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {

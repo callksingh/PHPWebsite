@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Emailnamespace;
+
 final class Email
 {
     private $email;
