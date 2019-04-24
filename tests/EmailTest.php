@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-//use App\Email;
+use App\Email;
 use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
@@ -20,12 +20,12 @@ final class EmailTest extends \PHPUnit\Framework\TestCase
         );
     }
 
-  //  public function testCannotBeCreatedFromInvalidEmailAddress(): void
-    //{
-      //  $this->expectException(InvalidArgumentException::class);
+    public function testCannotBeCreatedFromInvalidEmailAddress(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
 
-        //Email::fromString('invalid');
-    //}
+        Email::fromString('invalid');
+    }
 
     public function testCanBeUsedAsString(): void
     {
