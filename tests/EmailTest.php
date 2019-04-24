@@ -2,15 +2,15 @@
 declare(strict_types=1);
 
 
-use App\Email;
-//use PHPUnit\Framwork\TestCase;
+//use App\Email;
+use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
 //include ("../../simple-php-website-master/src/Email.php");
 
 
 
-final class EmailTest extends Email
+final class EmailTest extends \PHPUnit\Framework\TestCase
 {
     public function testCanBeCreatedFromValidEmailAddress(): void
     {
