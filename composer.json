@@ -7,8 +7,8 @@
     
         },
         "require-dev": {
-          "phpunit/phpunit": "^7",
-           "classmap": "./Email.php"
+          "phpunit/phpunit": "^7"
+          // "classmap": "./Email.php"
           },
           "autoload": {
           "psr-0": {
