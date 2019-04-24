@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 //use PHPUnit\Framework\TestCase;
 
-use PHPUnit\Framework\src;
+use buddy\phpwebsite\src;
 
 final class EmailTest extends src
 {
