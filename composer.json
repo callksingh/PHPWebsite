@@ -13,7 +13,7 @@
           "autoload": {
             
               "classmap":[
-                "src/"
+                "/Users/kulwindersingh/Documents/simple-php-website-master/src/Email.php"
               ],
       
           "psr-0": {
