@@ -10,6 +10,11 @@
           "phpunit/phpunit": "^7"
   
           },
+          "scripts": {
+            "test": [
+                "phpunit tests/*.php"
+            ]
+        },
           "autoload": {
           "psr-0": {
           "UnitTestFiles": "/Users/kulwindersingh/Documents/simple-php-website-master/tests/EmailTest.php"
