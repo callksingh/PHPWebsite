@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 //use buddy\phpwebsite\src;
 
-namespace EmailTest;
+use Emailnamespace;
 
 final class EmailTest extends Emailnamespace\Email
 {
