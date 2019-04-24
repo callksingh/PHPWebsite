@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 
-use \Users\kulwindersingh\Documents\simple_php_website_master\src\Email;
+use App\Email;
 //use PHPUnit\Framwork\TestCase;
 
 //use buddy\phpwebsite\src;
